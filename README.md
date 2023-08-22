@@ -66,6 +66,8 @@ Trying to passing a configuration with different actions, will show en error to 
 
 Like `ServiceFactory` & `ServiceManager`, `VoiceManager` is declared as an interface.
 
+***CAVE:*** on iOS, speech recognition behaves somelike different than Android. In particular, is you say *"one, two, three"*, you get the transcript *"123"*. For the scope of this exercise, it seemed too hard to distinguish "*"one, two, three"* from *"onehundredtwentythree"*, so I decided NOT to respect the rule that states to accept only digits.
+
 ### Screens & Use cases
 
 The app support localization for 6 languages: `en`, `it`, `fr`, `de`, `es`, `pr`.  
