@@ -1,0 +1,37 @@
+{
+  "commands": {
+    "code": {
+      "term": {
+        "en-gb": "code",
+        "it": "codice"
+      }
+    },
+    "count": {
+      "term": {
+        "en-gb": "count",
+        "it": "quantità"
+      }
+    },
+    "back": {
+      "term": {
+        "en-gb": "back",
+        "it": "indietro"
+      },
+      "action": "back"
+    },
+    "reset": {
+      "term": {
+        "en-gb": "reset",
+        "it": "cancella"
+      },
+      "action": "clear"
+    },
+    "stop": {
+      "term": {
+        "en-gb": "stop",
+        "it": "stop"
+      },
+      "action": "stop"
+    }
+  }
+}

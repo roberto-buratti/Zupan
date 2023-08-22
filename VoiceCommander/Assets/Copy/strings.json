@@ -1,0 +1,26 @@
+{
+  "voice_commander_scene_title": {
+    "en-gb": "Voice Commander",
+    "it": "Voice Commander"
+  },
+  "voice_commander_scene_welcome": {
+    "en-gb": "Welcome.\n\nTap 'Speak' to enter your voice commands.\nKnown commands are:",
+    "it": "Benvenuto.\n\nPremi 'Avvia' per inserire i comandi vocali.\nI comandi riconosciuti sono:"
+  },
+  "voice_commander_scene_start": {
+    "en-gb": "Speak",
+    "it": "Avvia"
+  },
+  "voice_commander_scene_stop": {
+    "en-gb": "Stop",
+    "it": "Stop"
+  },
+  "voice_valid_chars":{
+    "en-gb": "^[ a-z0-9]*$",
+    "it": "^[ a-z0-9àáèéìíòóùú]*$"
+  },
+  "voice_digits": {
+    "en-gb": "zero|one|two|three|four|five|six|seven|eight|nine",
+    "it": "zero|uno|due|tre|quattro|cinque|sei|sette|otto|nove"
+  }
+}

@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  VoiceCommander
+
+  Created by Roberto O. Buratti on 17/08/23.
+  
+*/
+
+"NSMicrophoneUsageDescription" = "Consenti a VoiceCommander di usare il microfono";
+"NSSpeechRecognitionUsageDescription" = "Consenti a VoiceCommander di usare il servizio di riconoscimento vocale";
