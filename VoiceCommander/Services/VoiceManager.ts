@@ -237,6 +237,9 @@ export default class VoiceManager implements IVoiceManager {
       return false
     }
     const action = template.action
+    if (!action || action.length == 0) {
+      return false
+    }
     switch (action) {
       case "back":
         // [ROB] just delete the last command.
@@ -257,8 +260,10 @@ export default class VoiceManager implements IVoiceManager {
       case "stop":
         this.stopRecording()
         return true
+      default:
+        this._events.emit(VoiceManagerEvents.onSpeechError, `Unknown action '${action}'`)
+        return false
     }
-    return false
   }
 
   private _isValid(char: string) {
